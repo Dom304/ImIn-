@@ -19,3 +19,8 @@ use app\Http\Controllers\Auth\UserController;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/profile/{user_id}', 'Auth\UserController@profile')->name('userProfile');
+
+Route::get('/jobs', 'JobsController@list')->name('jobs');
+

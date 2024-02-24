@@ -20,6 +20,16 @@ class UserController extends APIController
         return view('home');
     }
 
+    public function profile($user_id)
+    {
+        $user_info = User::get_user_info(((string)$user_id));
+
+        return view('profile',
+            [
+                'user_info' => $user_info,
+            ]);
+    }
+
     public function login(Request $request)
     {
         try {
