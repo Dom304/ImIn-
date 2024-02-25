@@ -22,7 +22,7 @@ class OpenAIService extends APIController
     $prompt = $this->formatPrompt($userResponses, $categories);
 
     try {
-      $response = $this->client->post('https://api.openai.com/v1/engines/davinci/completions', [
+      $response = $this->client->post('https://api.openai.com/v1/engines/gpt-3.5-turbo/completions', [
         'headers' => [
           'Authorization' => 'Bearer ' . $this->apiKey,
           'Content-Type' => 'application/json',
