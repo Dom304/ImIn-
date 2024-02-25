@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\Auth\UserController;
-use app\Http\Controllers\OpenAIController;
+use App\Http\Controllers\Auth\UserController;
+use App\Http\Controllers\OpenAIController;
+use app\Http\Controllers\JobsController;
+
 
 
 
@@ -18,13 +20,15 @@ use app\Http\Controllers\OpenAIController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('login');
 });
-Route::post('/login', 'Auth\UserController@login')->name('login');
-Route::post('/logout', 'Auth\UserController@logout')->name('logout');
 
-Route::get('/profile/{user_id}', 'Auth\UserController@profile')->name('userProfile');
 
-Route::get('/jobs', 'JobsController@list')->name('jobs');
+Route::post('/login', [UserController::class, 'login'])->name('login');
+Route::post('/logout', [UserController::class, 'logout'])->name('logout');
+
+Route::get('/profile/{user_id}', [UserController::class, 'profile'])->name('userProfile');
+
+Route::get('/jobs', [JobsController::class, 'list'])->name('jobs');
 
 Route::post('/analyze-questionnaire', [OpenAIController::class, 'analyze'])->name('analyzeData');
