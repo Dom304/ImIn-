@@ -42,7 +42,7 @@ class User
 
   public static function is_user($username, $password)
   {
-    $json_data = file_get_contents('./Data/user.json');
+    $json_data = file_get_contents(env('JSON_USER_PATH'));
     $users = json_decode($json_data, true);
 
     foreach ($users as $user) {
@@ -72,7 +72,7 @@ class User
 
   public static function get_user_info($user_id)
   {
-    $json_data = file_get_contents('./Data/user.json');
+    $json_data = file_get_contents(env('JSON_USER_PATH'));
     $users = json_decode($json_data, true);
 
     $user = null;
@@ -97,8 +97,8 @@ class User
   {
     $userId = Session::get('user_id');
 
-    $userData = file_get_contents('./Data/user.json');
-    $users = json_decode($userData, true);
+    $json_data = file_get_contents(env('JSON_USER_PATH'));
+    $users = json_decode($json_data, true);
 
     foreach ($users as $user) {
       if ($user['user_id'] == $userId) {
@@ -111,5 +111,9 @@ class User
       }
     }
     return false;
+  }
+
+  public static function questions()
+  {
   }
 }
