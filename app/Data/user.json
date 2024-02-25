@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "username": "Luke Skywalker",
+    "email": "luke.skywalker@example.com",
+    "password": "password123",
+    "role": "volunteer"
+  },
+  {
+    "id": 2,
+    "username": "Leia Organa",
+    "email": "leia.organa@example.com",
+    "password": "password456",
+    "role": "volunteer"
+  },
+  {
+    "id": 3,
+    "username": "Han Solo",
+    "email": "han.solo@example.com",
+    "password": "password123",
+    "role": "volunteer"
+  },
+  {
+    "id": 4,
+    "username": "Darth Vader",
+    "email": "darth.vader@example.com",
+    "password": "password456",
+    "role": "volunteer"
+  },
+
+  {
+    "id": 5,
+    "username": "Yoda",
+    "email": "yoda@example.com",
+    "password": "password123",
+    "role": "volunteer"
+  },
+  {
+    "id": 6,
+    "username": "Obiwan kenobi",
+    "email": "obiwan.kenobi@example.com",
+    "password": "password456",
+    "role": "organization"
+  },
+
+  {
+    "id": 7,
+    "username": "Chewbacca",
+    "email": "chewbacca@example.com",
+    "password": "password123",
+    "role": "organization"
+  },
+  {
+    "id": 8,
+    "username": "R2D2",
+    "email": "r2d2@example.com",
+    "password": "password456",
+    "role": "organization"
+  },
+  {
+    "id": 9,
+    "username": "C3P0",
+    "email": "jc3po@example.com",
+    "password": "password123",
+    "role": "organization"
+  },
+  {
+    "id": 10,
+    "username": "Anakin Skywalker",
+    "email": "anakin.skywalker@example.com",
+    "password": "password456",
+    "role": "organization"
+  }
+]

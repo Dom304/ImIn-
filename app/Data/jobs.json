@@ -1,0 +1,164 @@
+[
+  {
+    "id": 11,
+    "title": "Soup kitchen,",
+    "description": "Assisting in a soup kitchen by preparing meals, serving food to those in need, and cleaning up afterward.",
+    "status": "Open",
+    "category": "Food",
+    "tags": "Urgent"
+  },
+  {
+    "id": 12,
+    "title": "Tutoring/Mentoring",
+    "description": "Volunteering to tutor or mentor students in subjects like math, science, literacy, or life skills.",
+    "status": "Closed",
+    "category": ["Education", "Mentorship"],
+    "tags": ""
+  },
+  {
+    "id": 13,
+    "title": "Clean Up!",
+    "description": "Participating in community clean-up events to remove litter and debris from parks, beaches, rivers, and other public spaces.",
+    "status": "Open",
+    "category": "Community",
+    "tags": ["New", "Urgent"]
+  },
+  {
+    "id": 14,
+    "title": "Senior Friends",
+    "description": "Visiting local senior centers to spend time with elderly residents, engage in conversations, play games, or assist with recreational activities.",
+    "status": "Open",
+    "category": "Elderly Care",
+    "tags": ""
+  },
+
+  {
+    "id": 15,
+    "title": "Animal Shelter",
+    "description": "Helping out at an animal shelter by walking dogs, socializing cats, cleaning cages, and assisting with feeding and grooming.",
+    "status": "Closed",
+    "category": "Animal",
+    "tags": ""
+  },
+  {
+    "id": 16,
+    "title": "Community Garden",
+    "description": "Joining a community garden project to help maintain the garden, plant new crops, water plants, and harvest produce.",
+    "status": "Open",
+    "category": ["Community", "Outdoor"],
+    "tags": ""
+  },
+
+  {
+    "id": 17,
+    "title": "Disaster Relief",
+    "description": "Assisting in disaster relief efforts by providing aid, distributing supplies, helping with cleanup, or offering support to affected individuals and families.",
+    "status": "Open",
+    "category": ["Outdoor", "Community"],
+    "tags": ""
+  },
+  {
+    "id": 18,
+    "title": "Houseless Shelter Help",
+    "description": "Volunteering at a homeless shelter by serving meals, organizing donations, providing support services, and interacting with shelter residents.",
+    "status": "Open",
+    "category": "Community",
+    "tags": "New"
+  },
+  {
+    "id": 19,
+    "title": "Event Organizer for the Community",
+    "description": "Organizing or volunteering at community events such as festivals, fundraisers, parades, or cultural celebrations.",
+    "status": "Open",
+    "category": "Community",
+    "tags": "Urgent"
+  },
+  {
+    "id": 20,
+    "title": "Blood Donations",
+    "description": "Donating blood at local blood drives or blood donation centers to help save lives and support medical treatment for those in need.",
+    "status": "Open",
+    "category": "Medical",
+    "tags": "New"
+  },
+  {
+    "id": 21,
+    "title": "Meal Delivery ",
+    "description": "Delivering meals to individuals who are unable to access food due to age, illness, or disability",
+    "status": "Open",
+    "category": "Food",
+    "tags": "New"
+  },
+  {
+    "id": 22,
+    "title": "Career Coach",
+    "description": " Participating in organized efforts to clean up riverbanks, remove debris from waterways, and preserve aquatic ecosystems.",
+    "status": "Closed",
+    "category": "Community",
+    "tags": ""
+  },
+  {
+    "id": 23,
+    "title": "Memory Care",
+    "description": "Spending time with individuals living with dementia or Alzheimer's disease, engaging in memory-stimulating activities, and providing emotional support.",
+    "status": "",
+    "category": "Elderly Care",
+    "tags": ""
+  },
+  {
+    "id": 24,
+    "title": "Animal Rehab",
+    "description": "Assisting in the care and rehabilitation of injured or orphaned wildlife under the supervision of trained wildlife rehabilitators.",
+    "status": "",
+    "category": ["Animal", "Outdoor"],
+    "tags": ""
+  },
+  {
+    "id": 25,
+    "title": "Environmental Conservation",
+    "description": "Helping to maintain hiking trails, repair erosion damage, clear fallen debris, and improve accessibility for outdoor enthusiasts.",
+    "status": "",
+    "category": "Outdoor",
+    "tags": ""
+  },
+  {
+    "id": 26,
+    "title": "Emergency Communication",
+    "description": "Assisting with communication efforts during disasters by relaying vital information, coordinating resources, and providing assistance to affected individuals and communities.",
+    "status": "",
+    "category": ["Community", "Indoor"],
+    "tags": ""
+  },
+  {
+    "id": 27,
+    "title": "Transition Mentor",
+    "description": "Providing guidance, encouragement, and support to individuals transitioning out of homelessness and into stable housing situations.",
+    "status": "",
+    "category": "Community",
+    "tags": "Urgent"
+  },
+  {
+    "id": 28,
+    "title": "Organizer ",
+    "description": "Organizing cultural exchange events that promote understanding, celebrate diversity, and foster connections between people from different backgrounds.",
+    "status": "Open",
+    "category": "Community",
+    "tags": ""
+  },
+  {
+    "id": 29,
+    "title": "River Clean up!",
+    "description": "Participating in organized efforts to clean up riverbanks, remove debris from waterways, and preserve aquatic ecosystems.",
+    "status": "Open",
+    "category": ["Community", "Outdoor"],
+    "tags": "New"
+  },
+  {
+    "id": 30,
+    "title": "Community Health Fair",
+    "description": "Assisting in organizing and running health fairs that provide free screenings, educational workshops, and resources to promote health and wellness within the community.",
+    "status": "Open",
+    "category": ["Community", "Medical"],
+    "tags": "New"
+  }
+]
