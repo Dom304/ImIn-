@@ -112,4 +112,8 @@ class User
     }
     return false;
   }
+
+  public static function questions()
+  {
+  }
 }

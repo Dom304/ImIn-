@@ -25,7 +25,7 @@ Route::get('/', [UserController::class, 'index']);
 
 Route::post('/login', [UserController::class, 'login']);
 Route::post('/logout', [UserController::class, 'logout']);
-Route::get('/home', [UserController::class, 'home'])->name('home');
+Route::get('/dashboard', [UserController::class, 'dashboard'])->name('dashboard');
 Route::get('/profile/{user_id}', [UserController::class, 'profile'])->name('userProfile');
 
 Route::get('/jobs', [JobsController::class, 'list'])->name('jobs');

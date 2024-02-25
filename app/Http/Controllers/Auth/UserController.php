@@ -15,10 +15,10 @@ class UserController extends APIController
         return view('login');
     }
 
-    public function home()
+    public function dashboard()
     {
         $jobs = Job::list();
-        return view('home', ['jobs' => $jobs]);
+        return view('dashboard', ['jobs' => $jobs]);
     }
 
     public function login(Request $request)
@@ -31,7 +31,7 @@ class UserController extends APIController
             $user = true;
 
             if ($user) {
-                return redirect('home');
+                return redirect('dashboard');
             } else {
                 Log::error('wrong pass');
             }
@@ -55,4 +55,7 @@ class UserController extends APIController
     //     }
     // }
 
+    public static function questions()
+    {
+    }
 }
