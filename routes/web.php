@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use app\Http\Controllers\Auth\UserController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +17,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+Route::post('/login', 'Auth\UserController@login')->name('login');
+Route::post('/logout', 'Auth\UserController@logout')->name('logout');
+
+Route::get('/profile/{user_id}', 'Auth\UserController@profile')->name('userProfile');
+
+Route::get('/jobs', 'JobsController@list')->name('jobs');

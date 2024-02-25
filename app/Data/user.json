@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "username": "LSkywalker",
+    "first_name": "Luke",
+    "last_name": "Skywalker",
+    "email": "luke.skywalker@example.com",
+    "password": "password123",
+    "role": "volunteer",
+    "jobs_added": "",
+    "jobs_taken": ""
+  },
+  {
+    "id": 2,
+    "username": "LOrgana",
+    "first_name": "Leia",
+    "last_name": "Organa",
+    "email": "leia.organa@example.com",
+    "password": "password456",
+    "role": "volunteer",
+    "jobs_added": "",
+    "jobs_taken": ""
+  },
+  {
+    "id": 3,
+    "username": "HSolo",
+    "first_name": "Han",
+    "last_name": "Solo",
+    "email": "han.solo@example.com",
+    "password": "password123",
+    "role": "volunteer",
+    "jobs_added": "",
+    "jobs_taken": ""
+  },
+  {
+    "id": 4,
+    "username": "DVader",
+    "first_name": "Darth",
+    "last_name": "Vader",
+    "email": "darth.vader@example.com",
+    "password": "password456",
+    "role": "volunteer",
+    "jobs_added": "",
+    "jobs_taken": ""
+  },
+
+  {
+    "id": 5,
+    "username": "Yoda",
+    "first_name": "Yoda",
+    "last_name": "",
+    "email": "yoda@example.com",
+    "password": "password123",
+    "role": "volunteer",
+    "jobs_added": "",
+    "jobs_taken": ""
+  },
+  {
+    "id": 6,
+    "username": "Okenobi",
+    "first_name": "Obi",
+    "last_name": "Kenobi",
+    "email": "obiwan.kenobi@example.com",
+    "password": "password456",
+    "role": "organization",
+    "jobs_added": [16, 26, 11, 21],
+    "jobs_taken": ""
+  },
+
+  {
+    "id": 7,
+    "username": "Chewie",
+    "first_name": "Chewbacca",
+    "last_name": "",
+    "email": "chewbacca@example.com",
+    "password": "password123",
+    "role": "organization",
+    "jobs_added": [17, 27, 15, 25],
+    "jobs_taken": ""
+  },
+  {
+    "id": 8,
+    "username": "Artoo",
+    "first_name": "R2D2",
+    "last_name": "",
+    "email": "r2d2@example.com",
+    "password": "password456",
+    "role": "organization",
+    "jobs_added": [18, 28, 12, 22],
+    "jobs_taken": ""
+  },
+  {
+    "id": 9,
+    "username": "C3P0",
+    "first_name": "C3P0",
+    "last_name": "",
+    "email": "jc3po@example.com",
+    "password": "password123",
+    "role": "organization",
+    "jobs_added": [19, 29, 14, 24],
+    "jobs_taken": ""
+  },
+  {
+    "id": 10,
+    "username": "Annie",
+    "first_name": "Anakin",
+    "last_name": "Skywalker",
+    "email": "anakin.skywalker@example.com",
+    "password": "password456",
+    "role": "organization",
+    "jobs_added": [20, 30, 12, 23],
+    "jobs_taken": ""
+  }
+]
