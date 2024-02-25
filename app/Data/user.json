@@ -1,28 +1,36 @@
 [
   {
     "id": 1,
-    "username": "Luke Skywalker",
+    "username": "LSkywalker",
+    "first_name": "Luke",
+    "last_name": "Skywalker",
     "email": "luke.skywalker@example.com",
     "password": "password123",
     "role": "volunteer"
   },
   {
     "id": 2,
-    "username": "Leia Organa",
+    "username": "LOrgana",
+    "first_name": "Leia",
+    "last_name": "Organa",
     "email": "leia.organa@example.com",
     "password": "password456",
     "role": "volunteer"
   },
   {
     "id": 3,
-    "username": "Han Solo",
+    "username": "HSolo",
+    "first_name": "Han",
+    "last_name": "Solo",
     "email": "han.solo@example.com",
     "password": "password123",
     "role": "volunteer"
   },
   {
     "id": 4,
-    "username": "Darth Vader",
+    "username": "DVader",
+    "first_name": "Darth",
+    "last_name": "Vader",
     "email": "darth.vader@example.com",
     "password": "password456",
     "role": "volunteer"
@@ -31,13 +39,17 @@
   {
     "id": 5,
     "username": "Yoda",
+    "first_name": "Yoda",
+    "last_name": "",
     "email": "yoda@example.com",
     "password": "password123",
     "role": "volunteer"
   },
   {
     "id": 6,
-    "username": "Obiwan kenobi",
+    "username": "Okenobi",
+    "first_name": "Obi",
+    "last_name": "Kenobi",
     "email": "obiwan.kenobi@example.com",
     "password": "password456",
     "role": "organization"
@@ -45,14 +57,18 @@
 
   {
     "id": 7,
-    "username": "Chewbacca",
+    "username": "Chewie",
+    "first_name": "Chewbacca",
+    "last_name": "",
     "email": "chewbacca@example.com",
     "password": "password123",
     "role": "organization"
   },
   {
     "id": 8,
-    "username": "R2D2",
+    "username": "Artoo",
+    "first_name": "R2D2",
+    "last_name": "",
     "email": "r2d2@example.com",
     "password": "password456",
     "role": "organization"
@@ -60,13 +76,17 @@
   {
     "id": 9,
     "username": "C3P0",
+    "first_name": "C3P0",
+    "last_name": "",
     "email": "jc3po@example.com",
     "password": "password123",
     "role": "organization"
   },
   {
     "id": 10,
-    "username": "Anakin Skywalker",
+    "username": "Annie",
+    "first_name": "Anakin",
+    "last_name": "Skywalker",
     "email": "anakin.skywalker@example.com",
     "password": "password456",
     "role": "organization"

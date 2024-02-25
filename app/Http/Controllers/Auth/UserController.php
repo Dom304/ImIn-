@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\APIController;
-use App\Models\CruxDBApiClient;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
@@ -20,38 +19,38 @@ class UserController extends APIController
         return view('home');
     }
 
-    public function profile($user_id)
-    {
-        $user_info = User::get_user_info(((string)$user_id));
-
-        return view('profile',
-            [
-                'user_info' => $user_info,
-            ]);
-    }
-
-    public function login(Request $request)
+   public function login(Request $request)
     {
         try {
-          
+            $username = $request->input('email');
+            $password = $request->input('password');
 
+            $user = User::user_login($username, $password);
+
+            if ($user) {
+                return $this->return_success($request, true, 'success');
+            } else {
+                return $this->return_error($request, "Unsuccessful login", false);
+            }
         } catch (\Exception $e) {
-            Log::error($e->getMessage());
-            Log::error($e->getTraceAsString());
+            \Log::error($e->getMessage());
+            \Log::error($e->getTraceAsString());
             return $this->return_error($request, $e->getMessage(), false);
         }
     }
 
-    public function logout(Request $request)
-    {
-        try {
+
+
+    // public function logout(Request $request)
+    // {
+    //     try {
         
 
-        } catch (\Exception $e) {
-            Log::error($e->getMessage());
-            Log::error($e->getTraceAsString());
-            return $this->return_error($request, $e->getMessage(), false);
-        }
-    }
+    //     } catch (\Exception $e) {
+    //         Log::error($e->getMessage());
+    //         Log::error($e->getTraceAsString());
+    //         return $this->return_error($request, $e->getMessage(), false);
+    //     }
+    // }
 
 }

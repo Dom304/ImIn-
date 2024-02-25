@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\APIController;
+use App\Models\Job;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 
@@ -10,6 +12,12 @@ class JobsController extends APIController
     public function list(Request $request)
     {
         try {
+            $jobs_list = Job::list();
+         if ($this->json_response_check($request)) {
+            return $this->return_success($request, $jobs_list);
+        } else {
+            return view('dashboard', $jobs_list);
+        }
       
         } catch (\Exception $e) {
             Log::error($e->getMessage());
