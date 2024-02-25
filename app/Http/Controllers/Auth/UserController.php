@@ -15,6 +15,11 @@ class UserController extends APIController
         return view('login');
     }
 
+    public function home()
+    {
+        return view('home');
+    }
+
     public function dashboard()
     {
         $jobs = Job::list();

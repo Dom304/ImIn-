@@ -19,7 +19,8 @@ use app\Http\Controllers\JobsController;
 |
 */
 
-Route::get('/', [UserController::class, 'index']);
+Route::get('/', [UserController::class, 'home']);
+Route::get('/login', [UserController::class, 'index']);
 
 
 

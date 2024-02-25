@@ -35,7 +35,7 @@ class Job
 
     public static function list()
     {
-        $json_data = file_get_contents('../app/Data/jobs.json');
+        $json_data = file_get_contents(env('JSON_JOBS_PATH'));
         $jobsData = json_decode($json_data, true);
 
         $jobs = [];
@@ -69,8 +69,8 @@ class Job
             "category" => $category,
             "tags" => $tags
         ];
-        $jsonData = file_get_contents('./Data/jobs.json');
-        $jobs = json_decode($jsonData, true);
+        $json_data = file_get_contents(env('JSON_JOBS_PATH'));
+        $jobs = json_decode($json_data, true);
         $jobs[] = $jobData;
         $newJsonData = json_encode($jobs, JSON_PRETTY_PRINT);
 

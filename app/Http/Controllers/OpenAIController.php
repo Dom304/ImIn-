@@ -17,7 +17,7 @@ class OpenAIController extends APIController
   public function analyze(Request $request)
   {
     $data = $request->validate([
-      'questionnaire' => 'required|string',
+      'questionnaire' => 'required|array',
     ]);
 
     $analysis = $this->openAIService->analyzeQuestionnaire($data['questionnaire']);
