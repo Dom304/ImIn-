@@ -5,7 +5,7 @@
     <div class="w-full max-w-md px-6 py-8 mx-auto bg-white rounded-lg shadow-md">
         <h2 class="text-3xl font-bold text-center text-gray-700">{{ __('Login') }}</h2>
 
-        <form method="POST" action="{{ route('login') }}" class="mt-6">
+        <form method="POST" action="/login" class="mt-6">
             @csrf
 
             <div class="mb-4">

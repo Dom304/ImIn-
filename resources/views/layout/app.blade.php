@@ -10,7 +10,6 @@
 
     <!-- Scripts -->
     <link rel="stylesheet" href="{{asset('css/output.css')}}" type="text/css">
-    <script src="./node_modules/preline/dist/preline.js"></script>
     <title>ImIn! -- A genuine Volunteer Service</title>
     @vite('resources/js/app.js')
 </head>

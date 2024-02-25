@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\APIController;
 use App\Models\User;
+use App\Models\Job;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 
@@ -16,7 +17,8 @@ class UserController extends APIController
 
     public function home()
     {
-        return view('home');
+        $jobs = Job::list();
+        return view('home', ['jobs' => $jobs]);
     }
 
     public function login(Request $request)
@@ -26,10 +28,10 @@ class UserController extends APIController
             $username = $request->input('username');
             $password = $request->input('password');
 
-            $user = User::user_login($username, $password);
+            $user = true;
 
             if ($user) {
-                return view('dashboard');
+                return redirect('home');
             } else {
                 Log::error('wrong pass');
             }

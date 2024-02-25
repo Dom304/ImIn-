@@ -15,8 +15,8 @@ class User
   public string $email;
   public string $password;
   public string $role;
-  public string $jobs_added;
-  public string $jobs_taken;
+  public array $jobs_added;
+  public array $jobs_taken;
 
   public function __construct(
     $user_id = null,
@@ -26,7 +26,8 @@ class User
     $email = null,
     $password = null,
     $role = null,
-    $jobs_added = null
+    $jobs_added = null,
+    $jobs_taken = null,
   ) {
     $this->user_id = $user_id ?? 0;
     $this->username = $username ?? '';
@@ -36,6 +37,7 @@ class User
     $this->password = $password ?? '';
     $this->role = $role ?? '';
     $this->jobs_added = $jobs_added ?? [];
+    $this->jobs_taken = $jobs_taken ?? [];
   }
 
   public static function is_user($username, $password)

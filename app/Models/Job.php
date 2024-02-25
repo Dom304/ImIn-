@@ -14,16 +14,16 @@ class Job
     public string $title;
     public string $description;
     public string $status;
-    public string $category;
-    public string $tags;
+    public array $category;
+    public array $tags;
 
     public function __construct(
         int $id = null,
         string $title = null,
         string $description = null,
         string $status = null,
-        string $category = null,
-        string $tags = null
+        array $category = null,
+        array $tags = null
     ) {
         $this->id = $id ?? 0;
         $this->title = $title ?? '';
@@ -35,18 +35,20 @@ class Job
 
     public static function list()
     {
-        $json_data = file_get_contents('./Data/jobs.json');
+        $json_data = file_get_contents('/home/andy/Desktop/school/ImIn-PearlHacks2024/app/Data/jobs.json');
         $jobsData = json_decode($json_data, true);
 
         $jobs = [];
         foreach ($jobsData as $jobData) {
+            $category = is_array($jobData['category']) ? $jobData['category'] : [$jobData['category']];
+            $tags = is_array($jobData['tags']) ? $jobData['tags'] : explode(',', $jobData['tags']);
             $job = new Job(
                 $jobData['id'],
                 $jobData['title'],
                 $jobData['description'],
                 $jobData['status'],
-                $jobData['category'],
-                $jobData['tags']
+                $category,
+                $tags
             );
             $jobs[] = $job;
         }
