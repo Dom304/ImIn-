@@ -19,7 +19,7 @@ class UserController extends APIController
         return view('home');
     }
 
-   public function login(Request $request)
+    public function login(Request $request)
     {
         try {
             $username = $request->input('email');
@@ -33,8 +33,8 @@ class UserController extends APIController
                 return $this->return_error($request, "Unsuccessful login", false);
             }
         } catch (\Exception $e) {
-            \Log::error($e->getMessage());
-            \Log::error($e->getTraceAsString());
+            Log::error($e->getMessage());
+            Log::error($e->getTraceAsString());
             return $this->return_error($request, $e->getMessage(), false);
         }
     }
@@ -44,7 +44,7 @@ class UserController extends APIController
     // public function logout(Request $request)
     // {
     //     try {
-        
+
 
     //     } catch (\Exception $e) {
     //         Log::error($e->getMessage());

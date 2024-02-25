@@ -6,7 +6,9 @@
     "last_name": "Skywalker",
     "email": "luke.skywalker@example.com",
     "password": "password123",
-    "role": "volunteer"
+    "role": "volunteer",
+    "jobs_added": "",
+    "jobs_taken": ""
   },
   {
     "id": 2,
@@ -15,7 +17,9 @@
     "last_name": "Organa",
     "email": "leia.organa@example.com",
     "password": "password456",
-    "role": "volunteer"
+    "role": "volunteer",
+    "jobs_added": "",
+    "jobs_taken": ""
   },
   {
     "id": 3,
@@ -24,7 +28,9 @@
     "last_name": "Solo",
     "email": "han.solo@example.com",
     "password": "password123",
-    "role": "volunteer"
+    "role": "volunteer",
+    "jobs_added": "",
+    "jobs_taken": ""
   },
   {
     "id": 4,
@@ -33,7 +39,9 @@
     "last_name": "Vader",
     "email": "darth.vader@example.com",
     "password": "password456",
-    "role": "volunteer"
+    "role": "volunteer",
+    "jobs_added": "",
+    "jobs_taken": ""
   },
 
   {
@@ -43,7 +51,9 @@
     "last_name": "",
     "email": "yoda@example.com",
     "password": "password123",
-    "role": "volunteer"
+    "role": "volunteer",
+    "jobs_added": "",
+    "jobs_taken": ""
   },
   {
     "id": 6,
@@ -52,7 +62,9 @@
     "last_name": "Kenobi",
     "email": "obiwan.kenobi@example.com",
     "password": "password456",
-    "role": "organization"
+    "role": "organization",
+    "jobs_added": [16, 26, 11, 21],
+    "jobs_taken": ""
   },
 
   {
@@ -62,7 +74,9 @@
     "last_name": "",
     "email": "chewbacca@example.com",
     "password": "password123",
-    "role": "organization"
+    "role": "organization",
+    "jobs_added": [17, 27, 15, 25],
+    "jobs_taken": ""
   },
   {
     "id": 8,
@@ -71,7 +85,9 @@
     "last_name": "",
     "email": "r2d2@example.com",
     "password": "password456",
-    "role": "organization"
+    "role": "organization",
+    "jobs_added": [18, 28, 12, 22],
+    "jobs_taken": ""
   },
   {
     "id": 9,
@@ -80,7 +96,9 @@
     "last_name": "",
     "email": "jc3po@example.com",
     "password": "password123",
-    "role": "organization"
+    "role": "organization",
+    "jobs_added": [19, 29, 14, 24],
+    "jobs_taken": ""
   },
   {
     "id": 10,
@@ -89,6 +107,8 @@
     "last_name": "Skywalker",
     "email": "anakin.skywalker@example.com",
     "password": "password456",
-    "role": "organization"
+    "role": "organization",
+    "jobs_added": [20, 30, 12, 23],
+    "jobs_taken": ""
   }
 ]
