@@ -9,9 +9,9 @@
             @csrf
 
             <div class="mb-4">
-                <label for="email" class="block mb-2 text-sm font-medium text-gray-600">{{ __('E-Mail Address') }}</label>
-                <input id="email" type="email" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus class="w-full px-4 py-2 text-sm leading-tight text-gray-700 bg-white border rounded-md shadow-sm focus:outline-none focus:shadow-outline @error('email') border-red-500 @enderror">
-                @error('email')
+                <label for="username" class="block mb-2 text-sm font-medium text-gray-600">{{ __('Username') }}</label>
+                <input id="username" type="username" name="username" value="{{ old('username') }}" required autocomplete="username" autofocus class="w-full px-4 py-2 text-sm leading-tight text-gray-700 bg-white border rounded-md shadow-sm focus:outline-none focus:shadow-outline @error('username') border-red-500 @enderror">
+                @error('username')
                 <span class="text-xs text-red-500">{{ $message }}</span>
                 @enderror
             </div>

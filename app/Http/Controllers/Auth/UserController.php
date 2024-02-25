@@ -21,21 +21,21 @@ class UserController extends APIController
 
     public function login(Request $request)
     {
+        Log::info(__METHOD__ . print_r($request, true));
         try {
-            $username = $request->input('email');
+            $username = $request->input('username');
             $password = $request->input('password');
 
             $user = User::user_login($username, $password);
 
             if ($user) {
-                return $this->return_success($request, true, 'success');
+                return view('dashboard');
             } else {
-                return $this->return_error($request, "Unsuccessful login", false);
+                Log::error('wrong pass');
             }
         } catch (\Exception $e) {
             Log::error($e->getMessage());
             Log::error($e->getTraceAsString());
-            return $this->return_error($request, $e->getMessage(), false);
         }
     }
 
