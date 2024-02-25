@@ -25,4 +25,3 @@ Route::post('/logout', 'Auth\UserController@logout')->name('logout');
 Route::get('/profile/{user_id}', 'Auth\UserController@profile')->name('userProfile');
 
 Route::get('/jobs', 'JobsController@list')->name('jobs');
-

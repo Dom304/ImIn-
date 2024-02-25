@@ -5,11 +5,14 @@
   </template>
   
   <script>
+import ExampleComponent from './ExampleComponent.vue';
+
   export default {
     data() {
-      return {
-        message: 'Vue is working!',
-      }
+        return {
+            message: 'Vue is working!',
+        };
     },
-  }
+    components: { ExampleComponent }
+}
   </script>  

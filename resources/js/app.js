@@ -1,8 +1,12 @@
-import { createApp } from 'vue'
+import { createApp } from "vue"
+import App from './components/App.vue'
+import 'preline'
 import ExampleComponent from './components/ExampleComponent.vue'
 
-createApp({
+const app = createApp({
     components: {
         ExampleComponent
-    }
-}).mount('#app')
+    },
+});
+
+app.mount('#app');
