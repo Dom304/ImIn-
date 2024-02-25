@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use app\Http\Controllers\Auth\UserController;
+use app\Http\Controllers\OpenAIController;
 
 
 
@@ -25,3 +26,5 @@ Route::post('/logout', 'Auth\UserController@logout')->name('logout');
 Route::get('/profile/{user_id}', 'Auth\UserController@profile')->name('userProfile');
 
 Route::get('/jobs', 'JobsController@list')->name('jobs');
+
+Route::post('/analyze-questionnaire', [OpenAIController::class, 'analyze'])->name('analyzeData');
