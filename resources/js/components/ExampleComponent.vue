@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>{{ message }}</h1>
-    <button @click="changeMessage">Change Message</button>
+    Hello World, from Vue Component!
   </div>
 </template>
 
