@@ -1,11 +1,12 @@
 [
   {
     "id": 11,
-    "title": "Soup kitchen,",
+    "title": "Soup kitchen",
     "description": "Assisting in a soup kitchen by preparing meals, serving food to those in need, and cleaning up afterward.",
     "status": "Open",
     "category": "Food",
-    "tags": "Urgent"
+    "tags": "Urgent",
+    "image": "https://images.pexels.com/photos/8869196/pexels-photo-8869196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 12,
@@ -13,7 +14,8 @@
     "description": "Volunteering to tutor or mentor students in subjects like math, science, literacy, or life skills.",
     "status": "Closed",
     "category": ["Education", "Mentorship"],
-    "tags": ""
+    "tags": "",
+    "image": "https://images.pexels.com/photos/8869196/pexels-photo-8869196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
   },
   {
     "id": 13,
@@ -21,6 +23,7 @@
     "description": "Participating in community clean-up events to remove litter and debris from parks, beaches, rivers, and other public spaces.",
     "status": "Open",
     "category": "Community",
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ["New", "Urgent"]
   },
   {
@@ -29,6 +32,7 @@
     "description": "Visiting local senior centers to spend time with elderly residents, engage in conversations, play games, or assist with recreational activities.",
     "status": "Open",
     "category": "Elderly Care",
+    "image": "https://images.pexels.com/photos/5029853/pexels-photo-5029853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ""
   },
 
@@ -38,6 +42,7 @@
     "description": "Helping out at an animal shelter by walking dogs, socializing cats, cleaning cages, and assisting with feeding and grooming.",
     "status": "Closed",
     "category": "Animal",
+    "image":"https://images.pexels.com/photos/6568946/pexels-photo-6568946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2s",
     "tags": ""
   },
   {
@@ -46,6 +51,7 @@
     "description": "Joining a community garden project to help maintain the garden, plant new crops, water plants, and harvest produce.",
     "status": "Open",
     "category": ["Community", "Outdoor"],
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ""
   },
 
@@ -55,6 +61,7 @@
     "description": "Assisting in disaster relief efforts by providing aid, distributing supplies, helping with cleanup, or offering support to affected individuals and families.",
     "status": "Open",
     "category": ["Outdoor", "Community"],
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ""
   },
   {
@@ -63,6 +70,7 @@
     "description": "Volunteering at a homeless shelter by serving meals, organizing donations, providing support services, and interacting with shelter residents.",
     "status": "Open",
     "category": "Community",
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": "New"
   },
   {
@@ -71,6 +79,7 @@
     "description": "Organizing or volunteering at community events such as festivals, fundraisers, parades, or cultural celebrations.",
     "status": "Open",
     "category": "Community",
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": "Urgent"
   },
   {
@@ -79,6 +88,7 @@
     "description": "Donating blood at local blood drives or blood donation centers to help save lives and support medical treatment for those in need.",
     "status": "Open",
     "category": "Medical",
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": "New"
   },
   {
@@ -87,6 +97,7 @@
     "description": "Delivering meals to individuals who are unable to access food due to age, illness, or disability",
     "status": "Open",
     "category": "Food",
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": "New"
   },
   {
@@ -95,6 +106,7 @@
     "description": " Participating in organized efforts to clean up riverbanks, remove debris from waterways, and preserve aquatic ecosystems.",
     "status": "Closed",
     "category": "Community",
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ""
   },
   {
@@ -111,6 +123,7 @@
     "description": "Assisting in the care and rehabilitation of injured or orphaned wildlife under the supervision of trained wildlife rehabilitators.",
     "status": "",
     "category": ["Animal", "Outdoor"],
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ""
   },
   {
@@ -119,6 +132,7 @@
     "description": "Helping to maintain hiking trails, repair erosion damage, clear fallen debris, and improve accessibility for outdoor enthusiasts.",
     "status": "",
     "category": "Outdoor",
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ""
   },
   {
@@ -127,6 +141,7 @@
     "description": "Assisting with communication efforts during disasters by relaying vital information, coordinating resources, and providing assistance to affected individuals and communities.",
     "status": "",
     "category": ["Community", "Indoor"],
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ""
   },
   {
@@ -135,6 +150,7 @@
     "description": "Providing guidance, encouragement, and support to individuals transitioning out of homelessness and into stable housing situations.",
     "status": "",
     "category": "Community",
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": "Urgent"
   },
   {
@@ -143,6 +159,7 @@
     "description": "Organizing cultural exchange events that promote understanding, celebrate diversity, and foster connections between people from different backgrounds.",
     "status": "Open",
     "category": "Community",
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": ""
   },
   {
@@ -151,6 +168,7 @@
     "description": "Participating in organized efforts to clean up riverbanks, remove debris from waterways, and preserve aquatic ecosystems.",
     "status": "Open",
     "category": ["Community", "Outdoor"],
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": "New"
   },
   {
@@ -159,6 +177,7 @@
     "description": "Assisting in organizing and running health fairs that provide free screenings, educational workshops, and resources to promote health and wellness within the community.",
     "status": "Open",
     "category": ["Community", "Medical"],
+    "image": "https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "tags": "New"
   }
 ]

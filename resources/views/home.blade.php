@@ -13,7 +13,7 @@
                 </div>
 
                 <div class="flex items-center gap-x-2">
-                    <a class="font-medium text-[#4D8380] hover:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-600" href="#" aria-current="page">Landing</a>
+                    <a class="font-medium text-[#4D8380] hover:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-600" href="#" aria-current="page">Home</a>
                     <a class="font-medium text-[#4D8380] hover:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-600" href="#">Account</a>
                     <a class="font-medium text-[#4D8380] hover:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-600" href="#">Work</a>
                     <a class="font-medium text-[#4D8380] hover:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-600" href="#">Blog</a>
