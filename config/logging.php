@@ -83,7 +83,7 @@ return [
             'emoji' => ':boom:',
             'level' => env('LOG_LEVEL', 'critical'),
             'replace_placeholders' => true,
-            'permission' => 0664,
+
         ],
 
         'papertrail' => [
@@ -96,7 +96,7 @@ return [
                 'connectionString' => 'tls://' . env('PAPERTRAIL_URL') . ':' . env('PAPERTRAIL_PORT'),
             ],
             'processors' => [PsrLogMessageProcessor::class],
-            'permission' => 0664,
+
         ],
 
         'stderr' => [
@@ -108,7 +108,6 @@ return [
                 'stream' => 'php://stderr',
             ],
             'processors' => [PsrLogMessageProcessor::class],
-            'permission' => 0664,
         ],
 
         'syslog' => [
@@ -123,18 +122,15 @@ return [
             'driver' => 'errorlog',
             'level' => env('LOG_LEVEL', 'debug'),
             'replace_placeholders' => true,
-            'permission' => 0664,
         ],
 
         'null' => [
             'driver' => 'monolog',
             'handler' => NullHandler::class,
-            'permission' => 0664,
         ],
 
         'emergency' => [
             'path' => storage_path('logs/laravel.log'),
-            'permission' => 0664,
         ],
     ],
 
