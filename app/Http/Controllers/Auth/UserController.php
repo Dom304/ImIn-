@@ -23,7 +23,7 @@ class UserController extends APIController
 
     public function login(Request $request)
     {
-        Log::info(__METHOD__ . print_r($request, true));
+        // Log::info(__METHOD__ . print_r($request, true));
         try {
             $username = $request->input('username');
             $password = $request->input('password');

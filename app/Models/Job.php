@@ -35,7 +35,7 @@ class Job
 
     public static function list()
     {
-        $json_data = file_get_contents('/home/andy/Desktop/school/ImIn-PearlHacks2024/app/Data/jobs.json');
+        $json_data = file_get_contents('../app/Data/jobs.json');
         $jobsData = json_decode($json_data, true);
 
         $jobs = [];
