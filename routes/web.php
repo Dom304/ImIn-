@@ -18,7 +18,7 @@ use app\Http\Controllers\OpenAIController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('welcome');
 });
 Route::post('/login', 'Auth\UserController@login')->name('login');
 Route::post('/logout', 'Auth\UserController@logout')->name('logout');
